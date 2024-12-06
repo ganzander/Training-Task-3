@@ -2,8 +2,8 @@ import React from "react";
 import { ChevronRight } from "lucide-react";
 export default function HeroSection() {
   return (
-    <section className="flex flex-col md:flex-row justify-around px-8 lg:px-16 pt-20 w-full min-h-[60vh]">
-      <div className="flex flex-col w-[100%] md:w-[60%] tracking-wider">
+    <section className="flex flex-col md:flex-row justify-around px-8 lg:px-16 w-full min-h-[60vh]">
+      <div className="flex flex-col w-[100%] md:w-[60%] tracking-wider pt-20">
         <h1 className="text-3xl sm:text-4xl text-center md:text-5xl lg:text-7xl font-bold mb-4">
           TOGETHER WE
         </h1>
@@ -12,8 +12,9 @@ export default function HeroSection() {
         </h1>
       </div>
 
-      <div className="w-[100%] md:w-[40%] flex flex-col items-center">
-        <p className="sm:flex hidden text-white text-sm md:text-md lg:text-lg w-[80%] md:w-[100%] lg:w-[75%] mb-0 sm:mb-4 md:mb-8">
+      <div className="w-[100%] md:w-[40%] flex flex-col items-start pt-5">
+        <div className="bg-blue-600 w-[80px] h-[9px] mb-1 md:mb-5 md:mt-2 hidden sm:flex"></div>
+        <p className="pt-4 md:pt-8 sm:flex hidden text-white text-sm md:text-md lg:text-lg w-[80%] md:w-[100%] lg:w-[75%] mb-0 sm:mb-4 md:mb-8">
           Together, we can reinvent your business. Reinvention is about breaking
           industry norms. Our wide range of capabilities, ecosystem
           partnerships, and unmatched industry expertise can help your business

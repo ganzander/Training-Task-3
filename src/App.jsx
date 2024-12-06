@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import ServiceSection from "./components/ServiceSection";
 import FeatureSection from "./components/FeatureSection";
+import DifferenceSection from "./components/DifferenceSection";
+import StoriesSection from "./components/StoriesSection";
 
 const App = () => {
   return (
@@ -17,7 +19,9 @@ const App = () => {
         <HeroSection />
       </div>
       <ServiceSection />
-      <FeatureSection />
+      {/* <FeatureSection /> */}
+      <DifferenceSection />
+      <StoriesSection />
     </div>
   );
 };

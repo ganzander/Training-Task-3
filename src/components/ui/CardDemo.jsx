@@ -10,7 +10,7 @@ export default function CardDemo({ name, imgUrl }) {
         )}
         style={{ backgroundImage: `url(${imgUrl})` }}
       >
-        {/* <div className="absolute w-full h-full top-0 left-0 transition duration-300 group-hover/card:bg-black opacity-50"></div> */}
+        <div className="absolute w-full h-full top-0 left-0 transition duration-300 group-hover/card:bg-black opacity-50"></div>
       </div>
     </div>
   );
