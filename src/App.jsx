@@ -28,7 +28,7 @@ const App = () => {
       </div>
 
       <ServiceSection />
-      {/* <FeatureSection /> */}
+      <FeatureSection />
       <DifferenceSection />
       <StoriesSection />
       <CallBackSection />

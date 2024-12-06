@@ -87,19 +87,35 @@ export default function Footer() {
             </p>
             <div className="flex justify-center lg:justify-start space-x-4">
               <a href="#" className="hover:text-blue-500 transition-colors">
-                <img src="/facebook.png" alt="Facebook" className="h-8 w-8" />
+                <img
+                  src="/facebook.png"
+                  alt="Facebook"
+                  className="h-6 w-6 sm:h-8 sm:w-8"
+                />
                 <span className="sr-only">Facebook</span>
               </a>
               <a href="#" className="hover:text-red-500 transition-colors">
-                <img src="/youtube.png" alt="YouTube" className="h-8 w-8" />
+                <img
+                  src="/youtube.png"
+                  alt="YouTube"
+                  className="h-6 w-6 sm:h-8 sm:w-8"
+                />
                 <span className="sr-only">YouTube</span>
               </a>
               <a href="#" className="hover:text-blue-400 transition-colors">
-                <img src="/linkedin.png" alt="LinkedIn" className="h-8 w-8" />
+                <img
+                  src="/linkedin.png"
+                  alt="LinkedIn"
+                  className="h-6 w-6 sm:h-8 sm:w-8"
+                />
                 <span className="sr-only">LinkedIn</span>
               </a>
               <a href="#" className="hover:text-blue-400 transition-colors">
-                <img src="/twitter.png" alt="Twitter" className="h-8 w-8" />
+                <img
+                  src="/twitter.png"
+                  alt="Twitter"
+                  className="h-6 w-6 sm:h-8 sm:w-8"
+                />
                 <span className="sr-only">Twitter</span>
               </a>
             </div>

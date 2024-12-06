@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { ChevronDown, Menu, Search, X } from "lucide-react";
+import { ChevronDown, Menu, Phone, Search, X } from "lucide-react";
 
 export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -77,7 +77,26 @@ export default function Navbar() {
 
       <div className="hidden lg:flex lg:items-center lg:justify-center lg:gap-8">
         <Search />
-        <button className="bg-gray-600 px-4 py-2 rounded">Contact Us</button>
+        <div
+          className="border border-solid p-[5px] bg-[#FFFFFF1A]"
+          style={{
+            borderWidth: "0.5px",
+            borderImageSource:
+              "radial-gradient(92.83% 92.83% at 5.66% 90.23%, #AEAEAE 0%, rgba(0, 0, 0, 0) 100%)",
+            borderImageSlice: 1,
+          }}
+        >
+          <button
+            className="bg-[#FFFFFF1A] p-[5px] border-solid flex justify-center items-center gap-[10px]"
+            style={{
+              borderWidth: "0.5px",
+              borderColor: "#7A7A7A",
+            }}
+          >
+            <Phone />
+            Contact Us
+          </button>
+        </div>
       </div>
     </nav>
   );

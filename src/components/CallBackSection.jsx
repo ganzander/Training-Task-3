@@ -18,9 +18,18 @@ export default function CallBackSection() {
           getting in touch with us. We’ll be glad to assist you.
         </p>
 
-        <button className="bg-[#444444] border-[1px] border-[#7A7A7A] transition-colors px-[10px] py-[10px] text-white">
-          Request a Call Back
-        </button>
+        <div
+          className="bg-[#303030] py-[10px] border border-solid w-[60%] sm:w-[30%] md:w-[25%] mx-auto"
+          style={{
+            borderImageSource:
+              "radial-gradient(92.83% 92.83% at 5.66% 90.23%, #AEAEAE 0%, rgba(0, 0, 0, 0) 100%)",
+            borderImageSlice: 1,
+          }}
+        >
+          <button className="bg-[#444444] border-[1px] border-[#7A7A7A] transition-colors px-[10px] py-[10px] text-white">
+            Request a Call Back
+          </button>
+        </div>
       </div>
     </section>
   );
