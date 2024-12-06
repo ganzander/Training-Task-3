@@ -24,7 +24,7 @@ const stories = [
 
 export default function StoriesSection() {
   return (
-    <section className="flex items-center justify-center px-8 pb-20 min-h-[50vh]">
+    <section className="flex items-center justify-center px-8 pb-28 min-h-[50vh]">
       <div className="w-full">
         <Carousel stories={stories} />
       </div>

@@ -13,8 +13,8 @@ const services = [
 
 export default function ServiceSection() {
   return (
-    <section className="px-8 pb-20">
-      <h2 className="text-[20px] sm:text-[30px] md:text-[40px] mb-4 sm:mb-8">
+    <section className="px-8 pb-20 transform sm:-translate-y-0 md:-translate-y-36 lg:-translate-y-32">
+      <h2 className="text-[20px] sm:text-[30px] md:text-[40px] mb-4 md:mb-0 lg:mb-8">
         Services
       </h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-4 sm:gap-y-16 md:gap-y-8 gap-x-4 sm:gap-x-4 md:gap-x-8">
