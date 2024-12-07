@@ -18,7 +18,7 @@ const App = () => {
         }}
       ></div>
       <div
-        className="w-full bg-cover bg-center pb-20 z-10"
+        className="w-full bg-cover bg-center pb-20"
         style={{
           backgroundImage: "url('/hero-bg.png')",
         }}

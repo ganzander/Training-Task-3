@@ -5,8 +5,8 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <nav className="flex justify-between items-center px-8 py-4 relative">
-      <div className="text-xl font-bold">
+    <nav className="flex justify-between items-center px-8 py-4 relative z-30">
+      <div className="text-xl font-bold z-30">
         <img
           src="/blackcoffer.png"
           alt="Blackcoffer"
@@ -18,7 +18,10 @@ export default function Navbar() {
         {!isMenuOpen && (
           <Menu
             className="cursor-pointer"
-            onClick={() => setIsMenuOpen(true)}
+            onClick={() => {
+              setIsMenuOpen(true);
+              console.log("Hi");
+            }}
           />
         )}
       </div>

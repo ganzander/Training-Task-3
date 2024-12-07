@@ -20,7 +20,7 @@ export default function HeroSection() {
           partnerships, and unmatched industry expertise can help your business
           become the next best version of itself.
         </p>
-        <div className="flex items-center text-sm md:text-md lg:text-lg w-[80%] md:w-[100%] lg:w-[75%] gap-4">
+        <div className="flex items-center text-sm md:text-md lg:text-lg w-[80%] md:w-[100%] lg:w-[75%] gap-4 z-30">
           <p className="text-white text-md md:text-lg lg:text-xl">
             See what we do
           </p>
