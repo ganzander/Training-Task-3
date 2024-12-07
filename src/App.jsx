@@ -1,4 +1,5 @@
-import React from "react";
+import React, { useEffect } from "react";
+import LocomotiveScroll from "locomotive-scroll";
 import Navbar from "./components/Navbar";
 import HeroSection from "./components/HeroSection";
 import ServiceSection from "./components/ServiceSection";
@@ -9,6 +10,10 @@ import CallBackSection from "./components/CallBackSection";
 import Footer from "./components/Footer";
 
 const App = () => {
+  useEffect(() => {
+    const locomotiveScroll = new LocomotiveScroll();
+  }, []);
+
   return (
     <div className="bg-black text-white min-h-screen">
       <div
