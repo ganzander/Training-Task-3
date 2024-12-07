@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <nav className="flex justify-between items-center px-8 py-4 relative z-30">
-      <div className="text-xl font-bold z-30">
+      <div className="text-xl font-bold">
         <img
           src="/blackcoffer.png"
           alt="Blackcoffer"
